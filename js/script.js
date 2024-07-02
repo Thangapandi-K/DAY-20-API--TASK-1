@@ -18,10 +18,11 @@ const HAPPY_API = 'https://hp-api.herokuapp.com/api/characters'
 
 async function fetchCharacters() {
     
+    //fetching datas from api url
     const allCharacters = await fetch(HAPPY_API)
-    .then( allCharacters => allCharacters.json())
+    .then( allCharacters => allCharacters.json()) // converting the received datas as json format
     .then(characters => {
-        characters.forEach(character => {
+        characters.forEach(character => { // getting deatils of each data
             
             const col = document.createElement("div");
             col.setAttribute("class", "col-sm-6 col-md-4 col-lg-4 col-xl-4");

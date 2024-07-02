@@ -4,4 +4,4 @@
 
 - Here i used [Harry Potter Characters API](https://hp-api.herokuapp.com/api/characters) to make cards for each character.
 
-- []() to preview the deplyed web preview
+- [Click Here](https://promise-api-task1.netlify.app/) to preview the deplyed web preview
